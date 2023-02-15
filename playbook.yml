@@ -7,3 +7,7 @@
       ansible.builtin.apt:
         name: openjdk-17-jdk
         state: present
+    - name: uninstall java 
+      ansible.builtin.apt:
+        name: openjdk-17-jdk
+        state: absent
