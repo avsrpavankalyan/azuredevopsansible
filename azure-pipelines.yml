@@ -5,4 +5,4 @@ pool:
 
 steps:
 - script: ansible-playbook -i hosts playbook.yml
-  displayName: 'executing plaubook'
+  displayName: 'executing playbook'
