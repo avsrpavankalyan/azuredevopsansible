@@ -1,6 +1,6 @@
 ---
 - name: java installation
-  hosts: all
+  hosts: localhost
   become: yes
   tasks:
     - name: install java 
