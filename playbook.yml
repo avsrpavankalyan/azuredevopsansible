@@ -6,10 +6,4 @@
     - name: install java 
       ansible.builtin.apt:
         name: openjdk-17-jdk
-        update_cache: yes
         state: present
-    - name: unisntall java
-      ansible.builtin.apt:
-        name: openjdk-17-jdk
-        update_cache: yes
-        state: absent
